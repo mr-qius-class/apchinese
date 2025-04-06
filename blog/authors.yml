@@ -4,4 +4,16 @@ admin:
   url: https://github.com/username
   image_url: https://github.com/username.png
 
+teacher:
+  name: Chinese Teacher
+  title: AP Chinese Language Instructor
+  url: https://example.com/teacher
+  image_url: https://example.com/teacher.png
+
+student:
+  name: Student Contributor
+  title: AP Chinese Student
+  url: https://example.com/student
+  image_url: https://example.com/student.png
+
 # Add other authors as needed
