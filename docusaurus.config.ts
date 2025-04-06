@@ -10,17 +10,19 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://mr-qius-class.github.io/',
+  url: 'https://mr-qius-class.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/apchinese/',
-  deploymentBranch: 'main', 
-  trailingSlash: true,
-
+  
+  // Updated GitHub Pages deployment config
+  trailingSlash: false,
+  
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Mr. Qiu', // Usually your GitHub org/user name.
-  projectName: 'AP Chinese Class Notes', // Usually your repo name.
+  organizationName: 'mr-qius-class', // Should match your GitHub organization/username
+  projectName: 'apchinese', // Should match your repository name
+  deploymentBranch: 'gh-pages', // The branch where the built site will be deployed
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -41,7 +43,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Add exclude patterns here
           exclude: [
-            './docs/00 LP Toolbox/**',
+            '**/00 LP Toolbox/**',
           ],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
