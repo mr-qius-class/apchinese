@@ -1,0 +1,7 @@
+admin:
+  name: Admin
+  title: Site Administrator
+  url: https://github.com/username
+  image_url: https://github.com/username.png
+
+# Add other authors as needed

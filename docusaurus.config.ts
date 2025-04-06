@@ -22,7 +22,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'mr-qius-class', // Should match your GitHub organization/username
   projectName: 'apchinese', // Should match your repository name
-  deploymentBranch: 'main', // The branch where the built site will be deployed
+  deploymentBranch: 'gh-pages', // The branch where the built site will be deployed
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
